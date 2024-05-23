@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../bootstrap-5.3.3-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css-files/all.min.css">
+    <link rel="stylesheet" href="../css-files/main.css">
+    <title>Bookmarker</title>
+</head>
+<body>
+    <section class="home w-100 vh-100 ">
+        <div class="content">
+            <h1 class="text-center py-4">Bookmarker</h1>
+            <div class="content-inps py-5 container">
+                <div class="title-inps d-flex justify-content-center p-3">
+                    <i class="fa-solid fa-bookmark fs-4 pt-2"></i>
+                    <h2 class="px-3">Bookmark your favorite sites</h2>
+                    <i class="fa-solid fa-bookmark fs-4 pt-2"></i>
+                </div>
+                <label for="SiteName" class="w-100 pb-3">
+                    <i class="fa-solid fa-book-bookmark"></i>
+                    Site Name
+                </label>
+                <input type="text" id="SiteName" class="w-75 px-2" placeholder="Site Name">
+                <label for="URL" class="w-100 py-3">
+                    <i class="fa-solid fa-book-bookmark"></i>
+                    Site URL
+                </label>
+                <input type="text" id="URL" class="w-75 px-2" placeholder="Site URL">
+                <button onclick="AddSite ();" class="btn btn-outline-danger my-3 d-block ">Submit</button>
+            </div>
+            <table class="bg-white container mt-3 p-4 ">
+                <thead class="border-bottom text-center">
+                    <th>index</th>
+                    <th>Website Name</th>
+                    <th>Visit</th>
+                    <th>Delete</th>
+                </thead>
+                <tbody id="Tbody" class="text-center mt-3">
+                    <!-- <tr>
+                        <td>1</td>
+                        <td>facebook</td>
+                        <td>
+                            <i class="fa-solid fa-book-bookmark"></i>
+                            <button class="btn bg-primary px-3"><a href="#" 
+                            class="text-white text-decoration-none" >Visit</a></button>
+                        </td>
+                        <td>
+                            <i class="fa-solid fa-book-bookmark"></i>
+                            <button class="btn bg-danger px-3">delete</button>
+                        </td> 
+                    </tr> -->
+                </tbody>
+            </table>
+        </div>
+    </section>
+
+
+
+
+
+
+
+
+
+    <script src="../bootstrap-5.3.3-dist/js/bootstrap.bundle.min.js"></script>
+    <script src="../jsFiles/index.js"></script>
+</body>
+</html>
